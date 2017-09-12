@@ -1,0 +1,74 @@
+# Written by MakeHuman 1.1.1
+version v1.1.1
+tags Geri
+camera 4.5 22.0 -0.323935080867 0.155738122491 -0.131722523677 1.65
+modifier torso/torso-vshape-decr|incr -1.000000
+modifier armslegs/l-hand-fingers-length-decr|incr -1.000000
+modifier measure/measure-waist-circ-decr|incr -0.088000
+modifier measure/measure-neck-height-decr|incr -0.062000
+modifier armslegs/r-foot-scale-decr|incr 1.000000
+modifier macrodetails-universal/Muscle 0.000000
+modifier macrodetails/African 1.000000
+modifier armslegs/r-leg-valgus-decr|incr -0.552000
+modifier macrodetails-proportions/BodyProportions 1.000000
+modifier torso/torso-scale-horiz-decr|incr 1.000000
+modifier torso/torso-trans-backward|forward -0.130000
+modifier armslegs/r-hand-fingers-length-decr|incr 1.000000
+modifier macrodetails/Gender 0.524000
+modifier torso/torso-scale-vert-decr|incr 0.048000
+modifier armslegs/l-upperarm-shoulder-muscle-decr|incr -0.198000
+modifier head/head-angle-in|out 1.000000
+modifier macrodetails-height/Height 0.000000
+modifier breast/BreastSize 0.500000
+modifier armslegs/l-hand-fingers-diameter-decr|incr -1.000000
+modifier armslegs/l-foot-trans-in|out -1.000000
+modifier armslegs/r-hand-fingers-diameter-decr|incr 1.000000
+modifier torso/torso-muscle-dorsi-decr|incr -1.000000
+modifier armslegs/l-foot-scale-decr|incr -1.000000
+modifier armslegs/l-hand-scale-decr|incr -1.000000
+modifier torso/torso-trans-down|up -0.020000
+modifier torso/torso-muscle-pectoral-decr|incr -0.142000
+modifier macrodetails/Age 0.000000
+modifier breast/BreastFirmness 0.500000
+modifier macrodetails/Asian 0.000000
+modifier armslegs/lowerlegs-height-decr|incr 0.334000
+modifier measure/measure-neck-circ-decr|incr 1.000000
+modifier armslegs/r-hand-scale-decr|incr 1.000000
+modifier armslegs/l-hand-trans-in|out -1.000000
+modifier armslegs/l-hand-fingers-distance-decr|incr -1.000000
+modifier head/head-trans-backward|forward -0.020000
+modifier measure/measure-shoulder-dist-decr|incr 0.510000
+modifier measure/measure-underbust-circ-decr|incr -0.210000
+modifier head/head-fat-decr|incr 1.000000
+modifier head/head-diamond 1.000000
+modifier armslegs/upperlegs-height-decr|incr -0.102000
+modifier armslegs/r-foot-trans-backward|forward 1.000000
+modifier armslegs/l-foot-trans-backward|forward -1.000000
+modifier head/head-age-decr|incr 1.000000
+modifier macrodetails/Caucasian 0.000000
+modifier torso/torso-scale-depth-decr|incr 0.156000
+modifier head/head-round 0.197000
+modifier armslegs/r-hand-fingers-distance-decr|incr 1.000000
+modifier measure/measure-waisttohip-dist-decr|incr -0.088000
+modifier head/head-rectangular 0.333000
+modifier head/head-back-scale-depth-decr|incr 0.238000
+modifier measure/measure-bust-circ-decr|incr 0.278000
+modifier armslegs/r-hand-trans-in|out 1.000000
+modifier torso/torso-trans-in|out -0.006000
+modifier armslegs/r-foot-trans-in|out -0.034000
+modifier macrodetails-universal/Weight 0.500000
+modifier measure/measure-frontchest-dist-decr|incr 0.524000
+modifier measure/measure-napetowaist-dist-decr|incr -0.074000
+tongue tongue01 52ad91a3-caad-4e50-8c38-67634e5e789c
+teeth Teeth_Shape05 c6096ff1-46b6-4fdf-b992-49c1bc67f18b
+hair short02 c104cd4a-1edc-43f9-8b94-f63345a44638
+eyelashes eyelashes04 efd75993-8de1-43fb-b410-adc203091d25
+skeleton default.mhskel
+eyes HighPolyEyes 2c12f43b-1303-432c-b7ce-d78346baf2e6
+pose run01.bvh
+clothesHideFaces True
+expression cry01.mhpose
+skinMaterial skins/old_caucasian_male/old_caucasian_male.mhmat
+material short02 c104cd4a-1edc-43f9-8b94-f63345a44638 short02.mhmat
+material HighPolyEyes 2c12f43b-1303-432c-b7ce-d78346baf2e6 eyes/materials/brown.mhmat
+subdivide False
