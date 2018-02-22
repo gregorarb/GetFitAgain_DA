@@ -1,0 +1,11 @@
+D:\Diplomarbeit_GFA\Programme\Computeranimationen\RenderHelper\FileCopier\FileCopier\bin\Debug\netcoreapp2.0\FileCopier.deps.json
+D:\Diplomarbeit_GFA\Programme\Computeranimationen\RenderHelper\FileCopier\FileCopier\bin\Debug\netcoreapp2.0\FileCopier.runtimeconfig.json
+D:\Diplomarbeit_GFA\Programme\Computeranimationen\RenderHelper\FileCopier\FileCopier\bin\Debug\netcoreapp2.0\FileCopier.runtimeconfig.dev.json
+D:\Diplomarbeit_GFA\Programme\Computeranimationen\RenderHelper\FileCopier\FileCopier\bin\Debug\netcoreapp2.0\FileCopier.dll
+D:\Diplomarbeit_GFA\Programme\Computeranimationen\RenderHelper\FileCopier\FileCopier\bin\Debug\netcoreapp2.0\FileCopier.pdb
+D:\Diplomarbeit_GFA\Programme\Computeranimationen\RenderHelper\FileCopier\FileCopier\obj\Debug\netcoreapp2.0\FileCopier.csprojResolveAssemblyReference.cache
+D:\Diplomarbeit_GFA\Programme\Computeranimationen\RenderHelper\FileCopier\FileCopier\obj\Debug\netcoreapp2.0\FileCopier.csproj.CoreCompileInputs.cache
+D:\Diplomarbeit_GFA\Programme\Computeranimationen\RenderHelper\FileCopier\FileCopier\obj\Debug\netcoreapp2.0\FileCopier.AssemblyInfoInputs.cache
+D:\Diplomarbeit_GFA\Programme\Computeranimationen\RenderHelper\FileCopier\FileCopier\obj\Debug\netcoreapp2.0\FileCopier.AssemblyInfo.cs
+D:\Diplomarbeit_GFA\Programme\Computeranimationen\RenderHelper\FileCopier\FileCopier\obj\Debug\netcoreapp2.0\FileCopier.dll
+D:\Diplomarbeit_GFA\Programme\Computeranimationen\RenderHelper\FileCopier\FileCopier\obj\Debug\netcoreapp2.0\FileCopier.pdb
