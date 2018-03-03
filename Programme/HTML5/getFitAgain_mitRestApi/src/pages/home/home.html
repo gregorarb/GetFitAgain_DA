@@ -1,0 +1,37 @@
+<ion-header>
+  <ion-toolbar>
+          <button ion-button menuToggle>
+            <ion-icon name="menu"></ion-icon>
+          </button>
+          <ion-title>Home</ion-title>  
+          <ion-buttons end>
+          <button ion-button (click)="logout()" >
+              <ion-icon name="log-out"></ion-icon>
+          </button>
+        </ion-buttons>  
+      </ion-toolbar>
+</ion-header>
+
+<ion-content  padding id="welcome">
+  <h3>Welcome to GetFitAgain</h3>
+  <h3>Hallo {{firstnameCustomer}} {{surnameCustomer}},</h3>
+  <p>Bitte wählen Sie im Menü unter Trainingspläne ihren aktuellen Trainingsplan aus um mit dem Training zu beginnen!</p>
+  <p>
+
+    </p>  <p>
+
+      </p>
+  <p>Ihr zuständiger Therapeut ist {{tprename}} {{tsurname}}, <br>
+      bei Fragen ist der zuständige Therapeut unter {{ttele}}<br>
+      bzw. {{temail}} erreichbar. </p>
+  
+
+  <!--<button (click)="onLoadNewPlace()">Trainingspläne</button>-->
+
+
+
+
+
+ 
+</ion-content>
+  

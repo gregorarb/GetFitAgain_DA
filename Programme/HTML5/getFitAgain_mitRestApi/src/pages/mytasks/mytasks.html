@@ -1,0 +1,45 @@
+<!--
+  Generated template for the MytasksPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+		<ion-toolbar>
+				<button ion-button menuToggle>
+					<ion-icon name="menu"></ion-icon>
+				</button>
+				<ion-title>Meine Trainingspläne</ion-title>  
+		</ion-toolbar>
+				
+
+</ion-header>
+
+
+<ion-content padding>
+	<p>Hier sind deine aktuellen Trainingspläne mit deinen Übungen!<p>
+
+		<!--<form (ngSubmit)="onAddPlace(f.value)" #f="ngForm">
+			<ion-item>
+				<ion-label> Title </ion-label>
+				<ion-input type="text" name="title" ngModel required></ion-input>
+			</ion-item>
+			<button ion-button block type="submit" [disabled]="!f.valid">Add Task</button>
+		</form>-->
+
+
+
+		<ion-list>
+			<ion-item *ngFor="let c of currentTrainingplan" (click)="openTrainingsplan(c.PlanID)"> {{c.Name}}
+				<ion-thumbnail item-start (click)="openTrainingsplan(c.PlanID)">
+					<img src="../assets/imgs/logo.jpg">
+				</ion-thumbnail>
+				
+			
+				<!--<button (click)="openTrainingsplan(c.PlanID)">View</button>-->
+			</ion-item>
+		</ion-list>
+
+
+</ion-content>

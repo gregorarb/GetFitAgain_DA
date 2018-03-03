@@ -1,0 +1,20 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Feedbackstatistik</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-label text-wrap>Frage: {{question.questiontext}}</ion-label>
+  
+  <div style="display: block">
+    <canvas baseChart
+      [data]="ChartData"
+      [labels]="ChartLabels"
+      [chartType]="ChartType">
+    </canvas>
+  </div>
+</ion-content>

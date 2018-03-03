@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Feedbackstatistiken</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+
+  <button ion-item *ngFor="let item of questions" (click)="openDetailPage($event, item)">
+    <h2>{{item.questiontext}}</h2>
+    <ion-icon name="{{item.icon}}" item-end></ion-icon>
+  </button>
+
+</ion-content>

@@ -1,0 +1,41 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Alle Feedbacks</ion-title>
+  </ion-navbar>
+</ion-header>
+
+  <ion-content padding>
+    <ion-list-header>
+      Hier können Sie die Fragen beantworten!<br>
+      Es gibt 3 verschiedene Fragenarten:<br>
+      - Bewertung 1-5:<br>Sie müssen etwas bewerten, auf einer Skala von 1 bis 5.<br>
+      - Richtig oder Falsch:<br>Sie müssen angeben ob die Frage zutrifft oder nicht.<br>
+      - Textantwort:<br>Beantworten Sie die Frage mit Ihren eigenen Worten.
+    </ion-list-header>
+
+    <form (ngSubmit)="logForm()">
+      <!-- Fall 1 (1-5) -->
+      <ion-item *ngFor="let item of kindofquestionOneDynamic">
+        <ion-label text-wrap>{{item.questiontext}}</ion-label>
+        <ion-range min="1" max="5" step="1" snaps="true" color="secondary" [(ngModel)]="item.value" name="neededrangeName">
+          <ion-label range-left>1</ion-label>
+          <ion-label range-right>5</ion-label>
+        </ion-range>
+      </ion-item>
+
+      <!-- Fall 2 (Checkbox) -->
+      <ion-item *ngFor="let item of kindofquestionTwoDynamic">
+        <ion-label text-wrap>{{item.questiontext}}</ion-label>
+        <ion-checkbox name="check" [(ngModel)]="item.value" name="neededCheckboxName">Ja</ion-checkbox>
+      </ion-item>
+
+      <!-- Fall 3 Textarea -->
+      <ion-item *ngFor="let item of kindofquestionThreeDynamic">
+        <ion-label text-wrap floating>{{item.questiontext}}</ion-label>
+        <ion-textarea id="myInput" rows="5" maxLength="500" [(ngModel)]="item.value" name="neededtextareaName"></ion-textarea>
+      </ion-item>
+
+      <button ion-button type="submit" disabled={{disableFeedback}} block>Speichern</button>
+    </form>
+  </ion-content>

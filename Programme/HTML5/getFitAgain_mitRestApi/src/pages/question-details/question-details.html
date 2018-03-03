@@ -1,0 +1,40 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>QuestionDetails</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+    <h3>Details zur Frage</h3>
+    <form>
+      <ion-list>
+        <ion-list-header text-wrap>
+          Hier können Sie die Frage bearbeiten!<br>
+          Es gibt 3 verschiedene Fragenarten aus denen Sie wählen müssen:<br>
+          - Bewertung 1-5:<br>Kunde muss etwas bewerten, auf einer Skala von 1 bis 5.<br>
+          - Richtig oder Falsch:<br>Kunde muss angeben ob die Frage zutrifft oder nicht.<br>
+          - Textantwort:<br>Kunde kann mit einem Text antworten.
+        </ion-list-header>
+        
+        <!-- Hinzufügen eines neuen Items -->
+        <button ion-item>
+          <ion-label text-wrap floating>Fragentext</ion-label>
+          <ion-textarea id="myInput" rows="2" maxLength="500" [(ngModel)]="question.questiontext" name="neededtextareaName"></ion-textarea>
+        </button>
+
+        <button ion-item>
+          <ion-label>Fragenart</ion-label>
+          <ion-select [(ngModel)]="question.kindofquestion" [ngModelOptions]="{standalone: true}">
+            <ion-option value="1">Bewertung 1-5</ion-option>
+            <ion-option value="2">Richtig oder Falsch</ion-option>
+            <ion-option value="3">Textantwort</ion-option>
+          </ion-select>
+        </button>
+
+        <button ion-button type="button" (click)="logForm()" block>Speichern</button>
+      </ion-list>
+    </form>
+  </ion-content>

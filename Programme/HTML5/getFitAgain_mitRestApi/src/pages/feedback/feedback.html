@@ -1,0 +1,25 @@
+
+<ion-header>
+    <ion-navbar>
+      <button ion-button menuToggle>
+        <ion-icon name="menu"></ion-icon>
+      </button>
+      <ion-title>Feedback</ion-title>
+    </ion-navbar>
+  </ion-header>
+  
+<ion-content padding>
+    <h3>Dein Feedback ist uns Wichtig!</h3>
+
+    <ion-list>
+      <ion-list-header>
+        Feedbackmöglichkeiten
+      </ion-list-header>
+      
+      <button ion-item *ngFor="let item of feedbacks" (click)="openMenu($event, item)">
+        <h2>{{item.name}}</h2>
+        <p [ngClass]='item.done' item-end>{{item.done}}</p>
+      </button>
+      
+    </ion-list>
+</ion-content>

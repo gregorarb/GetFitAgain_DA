@@ -1,0 +1,33 @@
+
+<ion-header>
+
+  <ion-toolbar>
+    <ion-title>Login</ion-title>
+  </ion-toolbar>
+
+</ion-header>
+
+
+
+    <ion-content padding id="welcome" has-header="true" >
+<ion-list>
+
+  <ion-item>
+    <ion-label fixed>Username</ion-label>
+    <ion-input type="text" [(ngModel)]="todo.username" name="username" value=""></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label fixed>Password</ion-label>
+    <ion-input type="password" [(ngModel)]="todo.password" name="password" value=""></ion-input>
+  </ion-item>
+
+<button ion-button block color="dark"(click)="login()">
+	Login
+</button>
+
+<a href ="#" (click)="signup()"><font color="black">Noch nicht registriert?</font></a>
+
+</ion-list>
+
+</ion-content>

@@ -1,0 +1,18 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Alle Antworten</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+  <ion-label text-wrap>Frage: {{question.questiontext}}</ion-label>
+  
+  <ion-item *ngFor="let item of answers">
+    <ion-textarea id="myInput" rows="5" maxLength="500" [(ngModel)]="item.answerstring" name="neededtextareaName" readonly></ion-textarea>
+  </ion-item>
+
+</ion-content>

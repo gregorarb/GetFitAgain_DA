@@ -1,0 +1,40 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>FeedbackDetails</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <form>
+      <ion-list>
+        <ion-list-header text-wrap>
+          Hier können Sie das Feedback bearbeiten!<br>
+          Wenn eine Frage beim Feedback dabei sein soll setzen Sie ein Häkchen!<br>
+        </ion-list-header>
+        
+        <!-- Hinzufügen eines neuen Items -->
+        <h3>Feedbackname</h3>
+        <button ion-item>
+          <ion-textarea id="myInput" rows="2" maxLength="500" [(ngModel)]="feedback.name" name="neededtextareaName"></ion-textarea>
+        </button>
+
+        <h3>Vorhandene Fragen</h3>
+        <!-- 1 oder false -->
+        <ion-item *ngFor="let item of truequestions">
+          <ion-label text-wrap>{{item.questiontext}}</ion-label>
+          <ion-checkbox name="check" [(ngModel)]="item.value" name="neededCheckboxName"></ion-checkbox>
+        </ion-item>
+
+        <h3>Verfügbare Fragen</h3>
+        <ion-item *ngFor="let item of falsequestions">
+          <ion-label text-wrap>{{item.questiontext}}</ion-label>
+          <ion-checkbox checked="item.value" [(ngModel)]="item.value" name="neededCheckboxNameXD"></ion-checkbox>
+        </ion-item>
+
+        <button ion-button type="button" (click)="logForm()" block>Speichern</button>
+      </ion-list>
+    </form>
+</ion-content>
